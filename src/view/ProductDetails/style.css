@@ -1,0 +1,105 @@
+.Details_box{
+    width:100%;
+    padding: 0px 100px 50px;
+    
+}
+.Details_top{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+.Details_img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Details_text{
+    width: 50%;
+    padding: 20px;
+}
+.Details_text h1{
+    font-size: 40px;
+    text-align: left;
+}
+.Details_text p{
+    margin: 20px 0;
+    font-weight: 600;
+    text-align: left;
+}
+.Details_text p span{
+    font-weight: 400;
+}
+.line {
+    width: 80%;
+    height: 1px;
+    background-color: gainsboro;
+}
+.evaluate{
+    width: 100%;
+    border-top: 1px solid gainsboro;
+    padding: 50px 0;
+    margin-top: 50px;
+    
+}
+.evaluate_title{
+    font-size: 54px;
+    font-weight: 600;
+    padding: 50px 0;
+
+}
+.evaluate ul{
+    width: 100%;
+    padding: 0 200px;
+
+}
+.evaluate ul li{
+    display: flex;
+    padding: 50px 0;
+    border-bottom: 1px solid gainsboro;
+
+}
+.evaluate ul li:first-child{
+    border-top: 1px solid gainsboro;
+}
+.evaluateList_img{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.evaluateList_img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.evaluateList_text{
+    flex: 1;
+}
+.evaluateList_text h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.evaluateList_text h2 span{
+    font-weight: 400;
+    color: gainsboro;
+    font-size: 15px;
+}
+.evaluateList_text p{
+    text-align: left;
+    line-height: 2;
+    margin-top:40px ;
+}
+.like{
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+.textArea_box{
+    margin: 50px 0;
+    padding:  0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+}

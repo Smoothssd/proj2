@@ -1,0 +1,152 @@
+.video_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row !important;
+    margin: 50px auto;
+     background-color: rgb(241, 238, 233);
+}
+.video{
+    width: 400px;
+    border-radius: 10px;
+}
+.ant-card-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.video_text{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 10px;
+    height:300px;
+}
+.Home_imgList{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    padding: 0 100px;
+}
+.Home_title{
+    margin: 30px 0;
+    text-align: left;
+    font-size: 42px;
+    color: #333;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Home_title span{
+    font-size: 21px;
+    cursor: pointer;
+}
+.HomeImg{
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+.Home_Locations{
+    width: 100%;
+    background-color: #fff;
+    padding: 0 100px;
+}
+.LocationsHours{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.Home_mate_style p{
+    margin: 10px 0;
+    color: #333;
+    font-size: 15px;
+}
+.Home_mate_style p:last-child{
+color: #65696a;
+}
+.Home_Contemporary{
+    width: 100%;
+        
+    padding: 80px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contemporary_img{
+    width: 50%;
+    height: 431px;
+
+}
+.Contemporary_img img{
+    width: 100%;
+    height: 100%;
+}
+.Contemporary_Text{
+    width: 50%;
+   height: 431px;
+    padding: 60px 30px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+.Contemporary_Text h1{
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: left;
+    color: #333;
+}
+.Contemporary_Text p{
+    margin-top: 40px;
+       line-height: 1.5;
+    font-size: 18px;
+    text-align: left;
+}
+.Contemporary_Text span{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: left;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.5s all;
+    border-bottom: 2px solid #000;
+}
+.Contemporary_Text span:hover{
+    color: rgb(166, 25, 46);
+    border-bottom: 2px solid rgb(166, 25, 46);
+}
+.Home_Explore{
+    width: 100%;
+    padding: 50px 100px;
+    height: 600px;
+
+}
+.ExploreImg{
+    display: flex;
+    justify-content: space-between;
+}
+.ExploreImg_list{
+    position: relative;
+    width: 280px;
+    height: 365px;
+    transition: 0.5s all;
+}
+.ExploreImg_list:hover{
+    transform: scale(1.1);
+}
+.ExploreImg_list img{
+    width: 100%;
+    height: 100%;
+}
+.ExploreImg_list span{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    color: white;
+    font-size: 34px;
+}

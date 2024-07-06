@@ -1,0 +1,17 @@
+.Artist_box{
+    width: 100%;
+    padding: 0px 100px 50px;
+}
+.Artist_box_select{
+    display: flex;
+    width: 100%;
+    padding: 0px 0 50px;
+    box-sizing: border-box;
+
+}
+.Artist_list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
